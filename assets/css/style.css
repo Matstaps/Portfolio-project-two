@@ -1,0 +1,15 @@
+/* Global */
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom 0;
+    background-color: orange;
+}
