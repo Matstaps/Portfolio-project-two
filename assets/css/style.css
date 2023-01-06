@@ -13,3 +13,24 @@ footer {
     bottom 0;
     background-color: orange;
 }
+
+#players-container {
+    width: 90%;
+    background-color: aqua;
+    font-size: 1.9rem;
+    clear: both;
+    display: inline-block;
+}
+
+#player-box {
+    float: left;
+    background-color: rebeccapurple;
+    width: 50%;
+}
+
+#computer-box {
+    float: left;
+    background-color: lightgoldenrodyellow;
+    width: 50%;
+}
+
