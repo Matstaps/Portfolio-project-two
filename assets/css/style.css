@@ -18,11 +18,23 @@ footer {
     position: absolute;
     width: 100%;
     left: 0;
-    bottom 0;
+    bottom: 0;
     background-color: orange;
 }
 
-#players-container {
+#button-box {
+    margin-bottom: 5px;
+    justify-content: space-between;
+    display: flexbox;
+}
+
+button {
+    font-size: 4rem;
+    margin: 3px 40px;
+    min-width: 10%;
+}
+
+.players-container {
     width: 90%;
     background-color: aqua;
     font-size: 1.9rem;
@@ -42,6 +54,18 @@ footer {
     width: 50%;
 }
 
+#player-score-box {
+    float: left;
+    background-color: turquoise;
+    width: 50%;
+}
+
+#computer-score-box {
+    float: left;
+    background-color: lightgreen;
+    width: 50%;
+}
+
 #image-container {
     max-width: 90%;
     background: pink;
@@ -58,5 +82,9 @@ footer {
     padding: 2px;
     display: inline;
     
+}
+
+.image-child img {
+    width: 32%;
 }
 
