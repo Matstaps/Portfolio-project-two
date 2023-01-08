@@ -15,7 +15,6 @@ body {
 }
 
 footer {
-    position: absolute;
     width: 100%;
     left: 0;
     bottom: 0;
@@ -29,7 +28,7 @@ footer {
 }
 
 button {
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin: 3px 40px;
     min-width: 10%;
 }
@@ -37,7 +36,7 @@ button {
 .players-container {
     width: 90%;
     background-color: aqua;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     clear: both;
     display: inline-block;
 }
