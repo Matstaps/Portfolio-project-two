@@ -6,6 +6,10 @@ function playerChoice(event) {
 }
 
 btn.addEventListener('click', playerChoice);
+
+function randomCom(0, 2) {
+    return Math.floor(Math.random() * (0 - 2 + 1)) + min;
+}
 // *document.addEventListener('DOMContentLoaded'); {
 //   console.log('Ready to play');
 //    alert('ready to play');
