@@ -1,3 +1,22 @@
+
+const btn = document.querySelector('button');
+
+function playerChoice(event) {
+    console.log('you picked your element', event.target.id);
+}
+
+btn.addEventListener('click', playerChoice);
+// *document.addEventListener('DOMContentLoaded'); {
+//   console.log('Ready to play');
+//    alert('ready to play');
+//    let buttons = document.getElementsByTagName("button");
+// }
+
+
+    
+
+
+
 // create array water wood fire
 // create run game function
 // create event listener for button click
