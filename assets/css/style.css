@@ -15,13 +15,15 @@ body {
 }
 
 footer {
+    clear: both;
     width: 100%;
     left: 0;
     bottom: 0;
     background-color: orange;
+    position:fixed;
 }
 
-#button-box {
+#button-div {
     margin-bottom: 5px;
     justify-content: space-between;
     display: flexbox;
@@ -33,41 +35,10 @@ button {
     min-width: 10%;
 }
 
-.players-container {
-    width: 90%;
-    background-color: aqua;
-    font-size: 1.5rem;
-    clear: both;
-    display: inline-block;
-}
 
-#player-box {
-    float: left;
-    background-color: rebeccapurple;
-    width: 50%;
-}
-
-#computer-box {
-    float: left;
-    background-color: lightgoldenrodyellow;
-    width: 50%;
-}
-
-#player-score-box {
-    float: left;
-    background-color: turquoise;
-    width: 50%;
-}
-
-#computer-score-box {
-    float: left;
-    background-color: lightgreen;
-    width: 50%;
-}
 
 #image-container {
     max-width: 90%;
-    background: pink;
     max-height: 300px;
     text-align: center;
     margin: 0 auto;
@@ -77,7 +48,6 @@ button {
 
 .image-child {
     width: 33%;
-    background: yellow;
     padding: 2px;
     display: inline;
     
