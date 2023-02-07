@@ -22,7 +22,7 @@ function comChoice(){
 
     const conRandom = Math.floor(Math.random() * 3);
     console.log('Computer chose:', choices[comRandom]);
-    return.comRandom;
+    return comRandom;
 }
 
 
