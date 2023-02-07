@@ -23,5 +23,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
     console.log('I found ' + btns.length + 'buttons');
 
-
+    btns.forEach(btn => {
+        
+        btn.addEventListener('click', score)
+    });
 });
