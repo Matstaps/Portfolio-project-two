@@ -8,7 +8,7 @@ const choices = {
 var userScore = 0;
 var comScore = 0;
 var comPickEl;
-var userScoreEL;
+var userPickEl;
 var userScoreEl;
 var comScoreEl;
 var winnerEl;
@@ -66,8 +66,8 @@ function score(event){
     userPickEl.innerHTML = "You picked: " + event.target.innerText;
     comPickEl.innerHTML = "Computer picked: " + comChoice();
     
-    userScoreEl.innerHTML = "User: " + userScore;
-    comScoreEl.innerHTML = "Computer: " + comScore;
+    userScoreEl.innerHTML = "User Score: " + userScore;
+    comScoreEl.innerHTML = "Computer Score: " + comScore;
 
 }
 

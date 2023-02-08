@@ -1,108 +1,202 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Project 2 - Fire, Water, Wood
 
-Welcome Matstaps,
+## Overview
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+A link to the live website is provided [here](https://matstaps.github.io/....).
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Fire, Water, Wood is a simple website designed to demonstrate javascript functions within a web-based. It is based on the populer Rock, Paper, Scissors game. The website contains a header to introduce the page, and second level header to direct the user's instructions, a button section to allow the user to make a selection, a choice section to show the user and computer choice, a score accumulator section, a display to alert the winner of the last round, some images of the corresponding elements and a footer section.
 
-## Gitpod Reminders
+This website intends to allow the users to play a simple Rock, Paper, Scissors type game, facilitated by the functions of JavaScript. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This site was written using HTML, CSS and JavaScript. Additional text styling was provided using [Google Fonts](https://fonts.google.com/about) 
 
-`python3 -m http.server`
+![amiresponsive image](addpng.png)
 
-A blue button should appear to click: _Make Public_,
+## User Experience
 
-Another blue button should appear to click: _Open Browser_.
+### User Stories
+ 
+* First Time users
+            
+    * To allow users to play a game in the style of Rock Paper Scissors
+    * To be able to easily navigate the page and find the relavant sections simply
+    * To record an ongoing result           
+    
+            
+* Returning users
+    
+    * To replay the game at their leisure
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    
+* Frequent users
+    
+    * To play the game regularly
+            
+## Features
 
-A blue button should appear to click: _Make Public_,
+### Existing Features
 
-Another blue button should appear to click: _Open Browser_.
+### H1 Header
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* The header provides a clear naming of the page.
+* The font is consitent with the website, and the colour palette contrasts with the background colour.
+* This is a single page website with all elements visible, therefore a navigation bar is not required.
 
-To log into the Heroku toolbelt CLI:
+![Navigation bar image](....jpg)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Level 2 Heading
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* This heading directs the user to make a choice of the available buttons to start the game.
+* The font is consitent with the website, and the colour palette contrasts with the background colour.
 
-------
+![Hero image image](readme_images/heroimageimage.jpg)
 
-## Release History
+### Button Section
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* The button sections allows to user to make a choice of water, fire and wood. It triggers a JS function to select a random computer choice. 
+* The font is consitent with the website, and the colour palette contrasts with the background colour. The button colour compliment the background colour
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![About me image](readme_images/aboutmeimage1.jpg)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Choice Sections
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* This section shows the user the choice they have made and the corresponding user choice.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Gallery of bakes image](readme_images/gallerygrab1.jpg)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Score Section
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+* This section informs the user user of thr current accumulation of scores of both the user and computer.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Baking class information image](readme_images/classesscreengrab1.jpg)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Winner Section
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* This section alerts the user as to the winner of the most recent rouind.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Hero Image Section
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* This section gives a visual image of the three elements, fire, water, wood.
+* It is to add aesthetic to the website and provide visual representation of the game
+![Contact form image](readme_images/contactformscreengrab.jpg)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Footer
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* This section provides a simple reminder of the rules of the game for the user.
+* The section places a contrasting and complimentary background color to the rest of the webpage.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Footer image](readme_images/footerscreengrab.jpg)
 
-------
+### Supporting the user experience
 
-## FAQ about the uptime script
+* The features intend to satisfy the aims mentioned in the user stories. This single page site is designed to be easily navigable. It is clearly themed with a consistent design throughout the page, and the textual elements are concise. It allows a user to play the game without unnecessary complication
 
-**Why have you added this script?**
+### Potential Future Features
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+#### Embedded animation content
 
-**How will this affect me?**
+* A future feature to be to animate the visual images in response to the user choice.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+#### Limited Rounds
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* The game could be limited to a number of rounds to allow an ulitmate winner to be determined.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Design
 
-**So….?**
+### Website Style
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* A single page format was chosen to this website, the intention being that it is easy for the user to navigate to each section or to scroll through the page.
 
-**Can I opt out?**
+### Imagery
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* The images are freesourced from the internet. The images intend to visually convey the element's featured in the game.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Colour Scheme
 
-**Anything more?**
+* The colour scheme is intended to be easily seen by the user and provide clear text. The scheme chosen was informed the colour tones of the images. The green/lime colour palette is intended to be sympathetic to the elements theme of the game. The background is of a light palette to allow the sections to stand out.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Typography
 
----
+* The Montserrat and Lato fonts were imported from Google Font. They are intended to present the website text with a simple and clean feel. These two fonts compliment one another well.
 
-Happy coding!
+## Technologies used
+
+### Languages
+
+* HTML5
+* CSS3
+* JS
+
+### Further Technologies
+
+* Fonts were imported using Google Fonts.
+* The code was written on Gitpod workspace, to commit and push to Github.
+* Github was used as a repository for the code once pushed from Gitpod.
+* JS Fiddle was used to try out ongoing javascript debugging.
+
+## Testing
+
+### Browser Testing
+
+* I tested this site in different browsers: Chrome, Edge and Safari.
+* I confirmed that this website was responsive across different devices using the Google Chrome devtools device toolbar.
+* I confirm that this single page and contained sections, are readable, understandable and responsive.
+* I performed some manual testing on various devices, including Windows Desktop, iPhone SE, iPad
+
+### Bugs
+
+* I can confirm that no bugs were detected upon deployment.
+
+### Validator Testing
+
+* HTML 
+
+Upon validation using [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input), a warning advised that the hero-image was missing a header. This was resolved by adding a header and setting the CSS to display:none. Repeating the validation then confirmed there were no errors.
+
+![W3C HTML Validation results](readme_images/htmlvalidator.jpg)
+
+* CSS
+
+No errors were found when passing through the [Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input).
+
+![Jigsaw CSS Validation results](readme_images/cssvalidator.jpg)
+
+* Accessibility
+
+The colour scheme chosen was passed through the [Color Tool](https://m2.material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=E65100&secondary.color=FFEB3B) website to check the color palette against accessibility.
+I confirmed that color and fonts are accessible and easy to read by passing the website through Lighthouse in devtools.
+
+*Lighthouse desktop results:
+
+![Lighthouse desktop results](readme_images/lighthousedesktop.jpg)
+
+*Lighthouse mobile results: 
+
+![Lighthouse mobile results](readme_images/lighthousemobile.jpg)
+
+## Deployment
+
+The site was deployed to Github, the steps as follows: 
+
+1. In the github repository, navigate to the settings tab and choose Pages
+2. From the Source section drop-down, select Master Branch and save
+3. Once the page then refreshes, a link is provided to the live website
+4. Further changes pushed to the main branch will update the live site
+
+## Credits
+
+### Content
+
+Stylings of the Navigation Bar and About Me section were informed by CSS stylings used within the  [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) website.
+Icons were sourced from the [Font Awesome](https://fontawesome.com/) website.
+General HTML and CSS coding techniques were learned from the [Code Institute](https://codeinstitute.net/) tutorials and the [W3 Schools](https://www.w3schools.com/) website.
+
+### Media
+
+All images were provided by the subject.
+
+### Acknowledgements
+
+* Thank you to my mentor Akshat Garg for help and direction to useful resources.
+* Thank you to the tutors and staff at Code Institute for continued support.
+
