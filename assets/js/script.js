@@ -7,6 +7,8 @@ const choices = {
 
 var userScore = 0;
 var comScore = 0;
+var comPickEl;
+var userScoreEL;
 var userScoreEl;
 var comScoreEl;
 var winnerEl;
@@ -61,6 +63,9 @@ function score(event){
             winnerEl.innerHTML = "Player Wins!";
         }
 
+    userPickEl.innerHTML = "You picked: " + event.target.innerText;
+    comPickEl.innerHTML = "Computer picked: " + comChoice();
+    
     userScoreEl.innerHTML = "User: " + userScore;
     comScoreEl.innerHTML = "Computer: " + comScore;
 
@@ -77,6 +82,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
         
         btn.addEventListener('click', score);
     });
+
+    userPickEl = document.getElementById("user-pick");
+    comPickEl = document.getElementById("com-pick");
 
     userScoreEl = document.getElementById("user-score");
     comScoreEl = document.getElementById("com-score");
