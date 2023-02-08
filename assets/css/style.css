@@ -29,10 +29,17 @@ footer {
     display: flexbox;
 }
 
+h1 {
+    font-family: Montserrat;
+    color: #004d40;
+}
+
 button {
     font-size: 2.5rem;
     margin: 3px 40px;
     min-width: 10%;
+    background-color: #ffff00;
+    color: #cddc30;
 }
 
 
