@@ -64,7 +64,7 @@ function score(event){
         }
 
     userPickEl.innerHTML = "You picked: " + event.target.innerText;
-    comPickEl.innerHTML = "Computer picked: " + comChoice();
+    comPickEl.innerHTML = "Computer picked: " + choices[comChoiceInt];
     
     userScoreEl.innerHTML = "User Score: " + userScore;
     comScoreEl.innerHTML = "Computer Score: " + comScore;
