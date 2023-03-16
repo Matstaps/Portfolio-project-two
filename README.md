@@ -4,7 +4,7 @@
 
 A link to the live website is provided [here](https://matstaps.github.io/....).
 
-Fire, Water, Wood is a simple website designed to demonstrate javascript functions within a web-based. It is based on the populer Rock, Paper, Scissors game. The website contains a header to introduce the page, and second level header to direct the user's instructions, a button section to allow the user to make a selection, a choice section to show the user and computer choice, a score accumulator section, a display to alert the winner of the last round, some images of the corresponding elements and a footer section.
+Fire, Water, Wood is a simple website designed to demonstrate javascript functions within a web-based page. It is based on the popular Rock, Paper, Scissors game. The website contains a header to introduce the page, and second level header to provide the user's instructions, a button section to allow the user to make a selection, a choice section to show the user and computer choice, a score accumulator section, a display to alert the winner of the last round, some images of the corresponding elements and a footer section.
 
 This website intends to allow the users to play a simple Rock, Paper, Scissors type game, facilitated by the functions of JavaScript. 
 
@@ -19,7 +19,7 @@ This site was written using HTML, CSS and JavaScript. Additional text styling wa
 * First Time users
             
     * To allow users to play a game in the style of Rock Paper Scissors
-    * To be able to easily navigate the page and find the relavant sections simply
+    * To be able to easily navigate the page and find the relevant sections simply
     * To record an ongoing result           
     
             
@@ -47,7 +47,7 @@ This site was written using HTML, CSS and JavaScript. Additional text styling wa
 ### Level 2 Heading
 
 * This heading directs the user to make a choice of the available buttons to start the game.
-* The font is consitent with the website, and the colour palette contrasts with the background colour.
+* The font is consistent with the website, and the colour palette contrasts with the background colour.
 
 ![Hero image image](readme_images/heroimageimage.jpg)
 
@@ -72,7 +72,7 @@ This site was written using HTML, CSS and JavaScript. Additional text styling wa
 
 ### Winner Section
 
-* This section alerts the user as to the winner of the most recent rouind.
+* This section alerts the user as to the winner of the most recent round.
 
 ### Hero Image Section
 
@@ -99,7 +99,7 @@ This site was written using HTML, CSS and JavaScript. Additional text styling wa
 
 #### Limited Rounds
 
-* The game could be limited to a number of rounds to allow an ulitmate winner to be determined.
+* The game could be limited to a number of rounds to determine an ulitmate winner.
 
 ## Design
 
