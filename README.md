@@ -10,7 +10,7 @@ This website intends to allow the users to play a simple Rock, Paper, Scissors t
 
 This site was written using HTML, CSS and JavaScript. Additional text styling was provided using [Google Fonts](https://fonts.google.com/about) 
 
-![amiresponsive image](readMe_assets/amiresponsive.png)
+![amiresponsive image](assets/readMe_assets/amiresponsive.png)
 
 ## User Experience
 
@@ -42,33 +42,33 @@ This site was written using HTML, CSS and JavaScript. Additional text styling wa
 * The font is consitent with the website, and the colour palette contrasts with the background colour.
 * This is a single page website with all elements visible, therefore a navigation bar is not required.
 
-![Navigation bar image](....jpg)
+![Navigation bar image](assets/readMe_assets/header.png)
 
 ### Level 2 Heading
 
 * This heading directs the user to make a choice of the available buttons to start the game.
 * The font is consistent with the website, and the colour palette contrasts with the background colour.
 
-![Hero image image](readme_images/heroimageimage.jpg)
+![Header image](assets/readMe_assets/headerimage.png)
 
 ### Button Section
 
 * The button sections allows to user to make a choice of water, fire and wood. It triggers a JS function to select a random computer choice. 
 * The font is consitent with the website, and the colour palette contrasts with the background colour. The button colour compliment the background colour
 
-![About me image](readme_images/aboutmeimage1.jpg)
+![Button image](assets/readMe_assets/buttonchoiceandscore.png)
 
 ### Choice Sections
 
 * This section shows the user the choice they have made and the corresponding user choice.
 
-![Gallery of bakes image](readme_images/gallerygrab1.jpg)
+![Choice image](assets/readMe_assets/buttonchoiceandscore.png)
 
 ### Score Section
 
 * This section informs the user user of thr current accumulation of scores of both the user and computer.
 
-![Baking class information image](readme_images/classesscreengrab1.jpg)
+![Score image](assets/readMe_assets/buttonchoiceandscore.png)
 
 ### Winner Section
 
@@ -78,14 +78,14 @@ This site was written using HTML, CSS and JavaScript. Additional text styling wa
 
 * This section gives a visual image of the three elements, fire, water, wood.
 * It is to add aesthetic to the website and provide visual representation of the game
-![Contact form image](readme_images/contactformscreengrab.jpg)
+![Image image](assets/readMe_assets/imagedemo.png)
 
 ### Footer
 
 * This section provides a simple reminder of the rules of the game for the user.
 * The section places a contrasting and complimentary background color to the rest of the webpage.
 
-![Footer image](readme_images/footerscreengrab.jpg)
+![Footer image](assets/readMe_assets/imagedemo.png)
 
 ### Supporting the user experience
 
@@ -151,28 +151,36 @@ This site was written using HTML, CSS and JavaScript. Additional text styling wa
 
 * HTML 
 
-Upon validation using [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input), a warning advised that the hero-image was missing a header. This was resolved by adding a header and setting the CSS to display:none. Repeating the validation then confirmed there were no errors.
+Upon validation using [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input),  no errors were found.
 
-![W3C HTML Validation results](readme_images/htmlvalidator.jpg)
+![W3C HTML Validation results](assets/readMe_assets/validhtml.png)
 
 * CSS
 
-No errors were found when passing through the [Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input).
+On first pass through the validator, invalid display values were found in the button and image container divs. This was amended to remove these errors in [Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input).
 
-![Jigsaw CSS Validation results](readme_images/cssvalidator.jpg)
+![Jigsaw CSS Validation results](assets/readMe_assets/validcss.png)
+
+* JS
+
+On passing through the validator, version warinings were found although no errors were found in [JShint](https://https://jshint.com/).
+
+![Jhint Validation results](assets/readMe_assets/jstool.png)
+
+
 
 * Accessibility
 
-The colour scheme chosen was passed through the [Color Tool](https://m2.material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=E65100&secondary.color=FFEB3B) website to check the color palette against accessibility.
+The colour scheme chosen was passed through the [Color Tool](https://m2.material.io/) website to check the color palette against accessibility.
 I confirmed that color and fonts are accessible and easy to read by passing the website through Lighthouse in devtools.
 
 *Lighthouse desktop results:
 
-![Lighthouse desktop results](readme_images/lighthousedesktop.jpg)
+![Lighthouse desktop results](assets/readMe_assets/lighthousedesktop.png)
 
 *Lighthouse mobile results: 
 
-![Lighthouse mobile results](readme_images/lighthousemobile.jpg)
+![Lighthouse mobile results](assets/readMe_assets/lighthousemobile.png)
 
 ## Deployment
 
@@ -187,13 +195,18 @@ The site was deployed to Github, the steps as follows:
 
 ### Content
 
-Stylings of the Navigation Bar and About Me section were informed by CSS stylings used within the  [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) website.
-Icons were sourced from the [Font Awesome](https://fontawesome.com/) website.
-General HTML and CSS coding techniques were learned from the [Code Institute](https://codeinstitute.net/) tutorials and the [W3 Schools](https://www.w3schools.com/) website.
+Stylings, general HTML, CSS and JS coding techniques were learned from the [Code Institute](https://codeinstitute.net/) tutorials and the [W3 Schools](https://www.w3schools.com/) website.
+
 
 ### Media
 
-All images were provided by the subject.
+Three images were sourced from the Pexel website:
+
+[Logs](https://www.pexels.com/photo/brown-logs-761535/)
+
+[Drop](https://www.pexels.com/photo/water-drop-40784/)
+
+[Flame](https://www.pexels.com/photo/burning-tree-270815/)
 
 ### Acknowledgements
 
