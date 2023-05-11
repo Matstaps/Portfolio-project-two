@@ -2,7 +2,7 @@
 
 ## Overview
 
-A link to the live website is provided [here](https://matstaps.github.io/....).
+A link to the live website is provided [here](https://matstaps.github.io/Portfolio-project-two/).
 
 Fire, Water, Wood is a simple website designed to demonstrate javascript functions within a web-based page. It is based on the popular Rock, Paper, Scissors game. The website contains a header to introduce the page, and second level header to provide the user's instructions, a button section to allow the user to make a selection, a choice section to show the user and computer choice, a score accumulator section, a display to alert the winner of the last round, some images of the corresponding elements and a footer section.
 
@@ -10,7 +10,7 @@ This website intends to allow the users to play a simple Rock, Paper, Scissors t
 
 This site was written using HTML, CSS and JavaScript. Additional text styling was provided using [Google Fonts](https://fonts.google.com/about) 
 
-![amiresponsive image](addpng.png)
+![amiresponsive image](readMe_assets/amiresponsive.png)
 
 ## User Experience
 

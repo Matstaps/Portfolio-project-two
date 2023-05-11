@@ -3,7 +3,7 @@ const choices = {
     0: "Fire",
     1: "Water",
     2: "Wood",
-}
+};
 
 var userScore = 0;
 var comScore = 0;
