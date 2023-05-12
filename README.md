@@ -4,7 +4,7 @@
 
 A link to the live website is provided [here](https://matstaps.github.io/Portfolio-project-two/).
 
-Fire, Water, Wood is a simple website designed to demonstrate javascript functions within a web-based page. It is based on the popular Rock, Paper, Scissors game. The website contains a header to introduce the page, and second level header to provide the user's instructions, a button section to allow the user to make a selection, a choice section to show the user and computer choice, a score accumulator section, a display to alert the winner of the last round, some images of the corresponding elements and a footer section.
+Fire, Water, Wood is a simple website designed to demonstrate javascript functions within a web-based page. It is based on the popular Rock, Paper, Scissors game. The website contains a header to introduce the page, and second level header to provide the user's instructions, a button section to allow the user to make a selection, a choice section to show the user's and computer's choice, a score accumulator section, a display to alert the winner of the last round, some images of the corresponding elements and a footer section.
 
 This website intends to allow the users to play a simple Rock, Paper, Scissors type game, facilitated by the functions of JavaScript. 
 
@@ -16,21 +16,21 @@ This site was written using HTML, CSS and JavaScript. Additional text styling wa
 
 ### User Stories
  
-* First Time users
+* First time users
             
-    * To allow users to play a game in the style of Rock Paper Scissors
-    * To be able to easily navigate the page and find the relevant sections simply
-    * To record an ongoing result           
+    * To allow users to play a game in the style of Rock Paper Scissors.
+    * To be able to easily navigate the page and find the relevant sections simply.
+    * To record an ongoing result.           
     
             
 * Returning users
     
-    * To replay the game at their leisure
+    * To replay the game at their leisure.
 
     
 * Frequent users
     
-    * To play the game regularly
+    * To play the game regularly.
             
 ## Features
 
@@ -46,7 +46,7 @@ This site was written using HTML, CSS and JavaScript. Additional text styling wa
 
 ### Level 2 Heading
 
-* This heading directs the user to make a choice of the available buttons to start the game.
+* This heading directs the user to make a choice from the available buttons to start the game.
 * The font is consistent with the website, and the colour palette contrasts with the background colour.
 
 ![Header image](assets/readMe_assets/headerimage.png)
@@ -54,19 +54,19 @@ This site was written using HTML, CSS and JavaScript. Additional text styling wa
 ### Button Section
 
 * The button sections allows to user to make a choice of water, fire and wood. It triggers a JS function to select a random computer choice. 
-* The font is consitent with the website, and the colour palette contrasts with the background colour. The button colour compliment the background colour
+* The font is consitent with the website, and the colour palette contrasts with the background colour. The button's colour compliments the background colour.
 
 ![Button image](assets/readMe_assets/buttonchoiceandscore.png)
 
 ### Choice Sections
 
-* This section shows the user the choice they have made and the corresponding user choice.
+* This section shows the user the choice they have made and the corresponding computer choice.
 
 ![Choice image](assets/readMe_assets/buttonchoiceandscore.png)
 
 ### Score Section
 
-* This section informs the user user of thr current accumulation of scores of both the user and computer.
+* This section informs the user of the current accumulation of scores of both the user and computer.
 
 ![Score image](assets/readMe_assets/buttonchoiceandscore.png)
 
@@ -76,8 +76,8 @@ This site was written using HTML, CSS and JavaScript. Additional text styling wa
 
 ### Hero Image Section
 
-* This section gives a visual image of the three elements, fire, water, wood.
-* It is to add aesthetic to the website and provide visual representation of the game
+* This section gives a visual image of the three elements; fire, water, wood.
+* It is to add aesthetic to the website and provide visual representation of the game.
 ![Image image](assets/readMe_assets/imagedemo.png)
 
 ### Footer
@@ -89,7 +89,7 @@ This site was written using HTML, CSS and JavaScript. Additional text styling wa
 
 ### Supporting the user experience
 
-* The features intend to satisfy the aims mentioned in the user stories. This single page site is designed to be easily navigable. It is clearly themed with a consistent design throughout the page, and the textual elements are concise. It allows a user to play the game without unnecessary complication
+* The features intend to satisfy the aims mentioned in the user stories. This single page site is designed to be easily navigable. It is clearly themed with a consistent design throughout the page, and the textual elements are concise. It allows a user to play the game without unnecessary complication.
 
 ### Potential Future Features
 
@@ -163,7 +163,7 @@ On first pass through the validator, invalid display values were found in the bu
 
 * JS
 
-On passing through the validator, version warinings were found although no errors were found in [JShint](https://https://jshint.com/).
+On passing through the validator, version warnings were found although no errors were found in [JShint](https://https://jshint.com/).
 
 ![Jhint Validation results](assets/readMe_assets/jstool.png)
 
